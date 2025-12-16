@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+.next/
+.env.local
+.env.development.local
+.vercel
+
+# Build
+out/
+build/
+.next/
+
+# Runtime
+public/
+images/
+
+# Misc
+*.log
+.DS_Store
+.vscode/
+.idea/
