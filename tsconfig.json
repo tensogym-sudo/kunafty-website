@@ -30,13 +30,16 @@
     "target": "ES2017",
     "moduleResolution": "bundler",
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-, "tailwind.config.js"  ],
-  "exclude": [
-    "node_modules"
-  ]
+"include": [
+  "next-env.d.ts",
+  "app/**/*.ts",
+  "app/**/*.tsx",
+  "components/**/*.ts",
+  "components/**/*.tsx",
+  ".next/types/**/*.ts"
+],
+"exclude": [
+  "node_modules",
+  "examples"
+]
 }
